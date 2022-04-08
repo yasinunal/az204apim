@@ -1,4 +1,8 @@
 {
-    "appService.defaultWebAppToDeploy": "/subscriptions/cbde4e80-1cd1-4ef9-a0e1-b9f9a8cad74b/resourceGroups/appsvc_linux_centralus_premium/providers/Microsoft.Web/sites/unalapiservices2",
-    "appService.deploySubpath": "."
+    "appService.defaultWebAppToDeploy": "/subscriptions/cbde4e80-1cd1-4ef9-a0e1-b9f9a8cad74b/resourceGroups/rgaz204/providers/Microsoft.Web/sites/unalapiservices",
+    "appService.deploySubpath": ".",
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ]
 }
